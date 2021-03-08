@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>http://project_url_here_or_delete_this_line/</projectUrl>
+    <iconUrl>http://icon_url_here_or_delete_this_line/</iconUrl>
+    <description>$description$</description>
+    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <copyright>$copyright$</copyright>
+    <tags>Tag1 Tag2</tags>
+	  <dependencies>
+            <dependency id="Microsoft.AspNetCore.Http.Abstractions" version="2.2.0" />
+			<dependency id="System.Data.SqlClient" version="4.8.2" />
+			<dependency id="System.Diagnostics.Process" version="4.3.0" />
+			<dependency id="System.DirectoryServices" version="5.0.0" />
+			<dependency id="System.IO" version="4.3.0" />
+			<dependency id="System.Xml.XmlDocument" version="4.3.0" />
+        </dependencies>
+  </metadata>
+</package>

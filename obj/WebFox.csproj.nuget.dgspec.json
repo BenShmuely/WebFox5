@@ -1,0 +1,89 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/benshmuely/Github/WhiteSource/BLAST-Remediation-Core-CSharp/WebFox/WebFox.csproj": {}
+  },
+  "projects": {
+    "/Users/benshmuely/Github/WhiteSource/BLAST-Remediation-Core-CSharp/WebFox/WebFox.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/benshmuely/Github/WhiteSource/BLAST-Remediation-Core-CSharp/WebFox/WebFox.csproj",
+        "projectName": "WebFox",
+        "projectPath": "/Users/benshmuely/Github/WhiteSource/BLAST-Remediation-Core-CSharp/WebFox/WebFox.csproj",
+        "packagesPath": "/Users/benshmuely/.nuget/packages/",
+        "outputPath": "/Users/benshmuely/Github/WhiteSource/BLAST-Remediation-Core-CSharp/WebFox/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/benshmuely/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            },
+            "System.Diagnostics.Process": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.DirectoryServices": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.IO": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Xml.XmlDocument": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.103/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
